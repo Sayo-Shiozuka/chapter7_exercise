@@ -2,38 +2,44 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
 }
 
-.heading-visual {
+.main-visual {
   background-image: url(img/mv.jpg);
-  width: 1000px;
+  width: 100%;
   height: 400px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
-.heading-visual-content {
-  padding: 20px 0 0 20px;
-}
-
-.main-heading {
-  width: 840px;
-  height: 50px;
+.head-line {
+  padding: 20px;
 }
 
 main {
-  display: inline-block;
+  width: 840px;
+  margin: 50px auto;
 }
 
-.blog {
-  width: 840px;
-  margin: 50px 0;
+.service1 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.blog-item {
-  text-align: left;
-  border-bottom: 2px solid #f7f7f7;
-  padding: 30px 0;
-  width: 840px;
+.service2 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.service3 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.service4 {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
 }
